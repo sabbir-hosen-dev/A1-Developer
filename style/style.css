@@ -25,10 +25,30 @@
   background: #0D1321;
   color:#fff;
 }
-
+.bg-primary{
+  background:#0D1321;
+}
+.text-white{
+  color:#fff;
+}
+.section-heading{
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.section-descption{
+  text-align: center;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 14px;
+}
 body{
   scroll-behavior: smooth;
   font-family: "Azeret Mono", monospace;
+  color:#0D1321;
 }
 
 /* top nav style  */
@@ -38,4 +58,57 @@ body{
 }
 .top-nav h3{
   font-size: 25px;
+}
+
+/* banner style  */
+.banner-container{
+  background: url(../assets/Hero-bg.png) #0d13210b;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner{
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* why web development section  */
+.why-dev-container{
+  background:#0D132105;
+  border-radius: 10px;
+  padding:30px;
+  margin:50px 0px;
+}
+.why-dev{
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin:40px 0px;
+  justify-content: space-between;
+}
+.why-dev p{
+  margin:20px 0px;
+}
+.why-center-div{
+  justify-content: flex-start;
+}
+
+/* My Inspiration section  */
+
+.vedio-container{
+  border: 1px solid  #0D1321;
+  border-radius: 15px;
+  padding:20px;
+  min-height: 600px;
+  margin: 40px 0px;
+}
+.youtube-vedio{
+  border-radius: 12px;
 }
