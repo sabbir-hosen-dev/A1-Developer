@@ -170,7 +170,7 @@ body{
 }
 
 /* support section style  */
-.support{
+.support-section{
   background: url(../assets/handshake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +203,7 @@ form input{
 }
 
 /* footer section style  */
-#footer{
+.footer{
   display: flex;
   justify-content: space-between;
   background: #004CE80D;
