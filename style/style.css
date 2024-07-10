@@ -96,6 +96,9 @@ body{
   margin:40px 0px;
   justify-content: space-between;
 }
+.why-left{
+  padding-right: 150px;
+}
 .why-dev p{
   margin:20px 0px;
 }
